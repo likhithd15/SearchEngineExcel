@@ -1,0 +1,189 @@
+﻿
+.custom-border {
+    /*border: 1px solid #ddd;*/ /* Add a border all around */
+    padding: 30px; /* Add padding all around */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    
+    width: 40%; /* Set the width */
+    margin: 0 auto; /* Center the column horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+
+    .custom-border h3 {
+        text-align:center;
+    }
+
+    .custom-division h3 {
+        color: darkblue;
+    }
+
+.custom-division .btn-primary {
+    /*background-color: #f4f4f4;*/
+    color: white;
+    
+    border-radius: 4px;
+    border-bottom: 2px solid #ddd;
+}
+
+.custom-margin {
+    margin-bottom: 10px; /* Add margin between the two columns */
+}
+
+.custom-division {
+    border-bottom: 2px solid #ddd; /* Add a border to the bottom of the first division */
+    margin-bottom: 20px; /* Add margin to separate the divisions */
+    background-color: white;
+    font-family: Arial, sans-serif
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to 100% of the viewport height for vertical centering */
+    background-color: #ddd;
+}
+
+
+
+.center-content {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 0px 0;
+}
+
+/*Search by name*/
+
+body {
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content {
+    margin: 20px;
+}
+
+/* Custom styling for the FileUpload control */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    /*height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fcfcfc;*/
+    margin-top:70px;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 5px;
+    width: auto;
+    height: contain;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+    .card label {
+        display: flex;
+        text-align:left;
+    }
+
+    .card h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+.card-body {
+    align-items: center;
+}
+
+.drop_box {
+    margin: 10px 0;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px dotted #a3a3a3;
+    border-radius: 5px;
+}
+
+    .drop_box h4 {
+        font-size: 16px;
+        font-weight: 400;
+        color: #2e2e2e;
+        text-align: justify;
+
+    }
+
+    .drop_box p {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: #a3a3a3;
+    }
+
+.btn {
+    text-decoration: none;
+    background-color: #005af0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    border-radius: 4px;
+    width:fit-content;
+
+
+}
+
+    .btn:hover {
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #005af0;
+        padding: 10px 20px;
+        border: none;
+        outline: 1px solid #010101;
+    }
+
+.form input {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
